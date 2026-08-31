@@ -1,0 +1,8 @@
+metric,value
+rows,400
+default_rate_pct,20.25
+missing_bureau_count,80
+missing_bureau_pct,20
+thin_file_count,80
+train_rows,320
+test_rows,80

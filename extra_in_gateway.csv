@@ -1,0 +1,11 @@
+transaction_id,user_id,merchant_id,transaction_time,amount_inr,payment_method,status,risk_score
+TXNX9000,262,25,14-01-2026 00:00,149,Netbanking,captured,54
+TXNX9001,96,32,21-01-2026 00:00,4999,Wallet,captured,71
+TXNX9002,86,32,10-01-2026 00:00,149,Wallet,captured,40
+TXNX9003,231,40,02-01-2026 00:00,799,UPI,captured,62
+TXNX9004,70,13,27-01-2026 00:00,1499,Netbanking,captured,52
+TXNX9005,252,27,23-01-2026 00:00,2999,Netbanking,captured,21
+TXNX9006,43,37,01-01-2026 00:00,299,Card,captured,4
+TXNX9007,141,15,18-01-2026 00:00,499,Wallet,captured,99
+TXNX9008,235,37,24-01-2026 00:00,2999,UPI,captured,73
+TXNX9009,59,18,25-01-2026 00:00,4999,Card,captured,69
