@@ -1,0 +1,5 @@
+metric,value
+total_transactions,265.0
+anomalies_flagged,15.0
+normal_transactions,250.0
+anomaly_rate_percent,5.66

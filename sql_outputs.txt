@@ -1,0 +1,43 @@
+Paytm Payments & Fraud Analytics — SQL Outputs
+
+Query 1 — Chargeback impact
+total_transactions: 28
+unique_users: 27
+total_amount: 54472.0
+
+Query 2 — Burner accounts
+15 rows returned. These are the 15 seeded burner-account chargeback transactions.
+
+Query 3 — Velocity attacks
+16 qualifying 10-minute windows returned. The seeded 8 rapid-fire clusters can
+produce multiple qualifying windows because each cluster has 4 transactions.
+
+Query 4 — Top 10 merchants
+10 rows returned.
+Top visible results:
+39 Merchant_039 entertainment North 13 22687.0
+13 Merchant_013 travel East 12 18388.0
+7 Merchant_007 food_delivery East 16 15934.0
+25 Merchant_025 travel South 17 15533.0
+27 Merchant_027 ecommerce North 16 13584.0
+10 Merchant_010 grocery West 14 13086.0
+29 Merchant_029 ecommerce North 19 13081.0
+
+Query 5 — Status summary
+captured: 468 transactions, 290382.0 total, 260 unique users
+chargeback: 28 transactions, 54472.0 total, 27 unique users
+failed: 51 transactions, 37749.0 total, 32 unique users
+
+Query 6 — Payment method summary
+UPI: 276 transactions, 192 unique users, 172774.0 total, 624.1811594209 average
+Card: 121 transactions, 86 unique users, 102429.0 total, 846.5206611570 average
+Wallet: 96 transactions, 86 unique users, 71304.0 total, 742.75 average
+Netbanking: 54 transactions, 50 unique users, 36596.0 total, 677.7037037037 average
+
+Query 7 — Region summary
+East: 180 transactions, 125620.0 total
+North: 154 transactions, 113046.0 total
+South: 127 transactions, 93023.0 total
+West: 86 transactions, 50914.0 total
+
+All seven queries executed successfully without SQL errors.
