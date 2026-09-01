@@ -1,0 +1,17 @@
+transaction_id,amount_inr_ledger,status_ledger,amount_inr_gateway,status_gateway,amount_difference
+TXN100011,2999,failed,2949,failed,-50
+TXN100019,49,captured,99,captured,50
+TXN100039,1499,captured,1399,captured,-100
+TXN100204,49,captured,-51,captured,-100
+TXN100218,49,captured,-1,captured,-50
+TXN100252,299,captured,349,captured,50
+TXN100270,799,chargeback,899,chargeback,100
+TXN100278,149,captured,99,captured,-50
+TXN100284,1499,captured,1399,captured,-100
+TXN100286,49,captured,149,captured,100
+TXN100301,149,captured,249,captured,100
+TXN100380,149,captured,249,captured,100
+TXN100383,499,captured,549,captured,50
+TXN100393,2999,captured,3099,captured,100
+TXN100480,49,failed,99,failed,50
+TXN100494,49,captured,149,captured,100
