@@ -22,7 +22,7 @@ from sklearn.metrics import (
 df = pd.read_csv("credit_applicants.csv")
 
 # Task 1: report default rate and create thin-file flag BEFORE imputation.
-default_rate = df["default"].mean() * 100
+default_rate = df["default_flag"].mean() * 100
 missing_bureau_pct = df["credit_bureau_score"].isna().mean() * 100
 df["is_thin_file"] = df["credit_bureau_score"].isna().astype(int)
 
@@ -37,8 +37,8 @@ print(f"Thin-file applicants: {df['is_thin_file'].sum()}")
 print()
 
 # Target and features
-X = df.drop(columns=["default", "applicant_id"])
-y = df["default"]
+X = df.drop(columns=["default_flag", "applicant_id"])
+y = df["default_flag"]
 
 numeric_features = [
     "age",

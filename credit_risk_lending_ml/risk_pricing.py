@@ -14,8 +14,8 @@ OUTPUT = "applicant_risk_pricing.csv"
 df = pd.read_csv(INPUT)
 df["is_thin_file"] = df["credit_bureau_score"].isna().astype(int)
 
-X = df.drop(columns=["default", "applicant_id"])
-y = df["default"]
+X = df.drop(columns=["default_flag", "applicant_id"])
+y = df["default_flag"]
 
 numeric_features = [
     "age", "monthly_income_inr", "existing_loans_count",
